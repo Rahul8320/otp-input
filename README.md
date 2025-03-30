@@ -35,7 +35,7 @@ To get an development setup ready, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rahul8320/otp-input.git
+   git clone https://github.com/Rahul8320/otp-input.git
    ```
 
 2. Navigate to the project directory:
