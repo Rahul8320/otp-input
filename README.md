@@ -60,6 +60,12 @@ To get an development setup ready, follow these steps:
    Runs the app in the development mode.\
    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+5. To ensure the integrity of the application, you can run the test suite using the following command:
+
+   ```bash
+   npm test
+   ```
+
 ## Styling
 
 The component comes with basic styles. You can customize the styles further by adding your own CSS classes or inline styles.
@@ -71,6 +77,7 @@ This project was developed using the following technologies:
 - **React**: A JavaScript library for building user interfaces.
 - **JavaScript**: The programming language used for the component logic.
 - **HTML/CSS**: For structuring and styling the component.
+- **Jest**: For writing and running unit tests.
 
 ## Contributing
 
