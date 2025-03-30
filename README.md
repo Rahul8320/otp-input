@@ -20,6 +20,7 @@ A simple and customizable OTP (One-Time Password) input component built with Rea
 - **Automatic Focus**: Automatically moves focus to the next input field as the user types.
 - **Backspace Navigation**: Allows users to navigate back to the previous input field when deleting digits.
 - **Customizable Length**: Easily set the length of the OTP input.
+- **Switch Between OTP Digits**: Shift focus between OTP input fields using the left and right arrow keys.
 
 ## Prerequisites
 
@@ -61,7 +62,7 @@ To get an development setup ready, follow these steps:
 
 ## Styling
 
-The component comes with basic inline styles. You can customize the styles further by adding your own CSS classes or inline styles.
+The component comes with basic styles. You can customize the styles further by adding your own CSS classes or inline styles.
 
 ## Developed With
 

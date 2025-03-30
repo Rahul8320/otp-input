@@ -30,13 +30,18 @@ export const OTPInput = ({ otp_length }: OTPInputProps) => {
 
   const handleOnKeyDown = (e: any, index: number) => {
     const key = e.key;
-    console.log({ index });
 
-    if (key !== "Backspace") {
+    if (key === "ArrowLeft" && index > 0) {
+      refInputArr.current[index - 1]?.focus();
       return;
     }
 
-    if (!e.target.value) {
+    if (key === "ArrowRight" && index < otp_length - 1) {
+      refInputArr.current[index + 1]?.focus();
+      return;
+    }
+
+    if (key === "Backspace" && !e.target.value) {
       refInputArr.current[index - 1]?.focus();
     }
   };
